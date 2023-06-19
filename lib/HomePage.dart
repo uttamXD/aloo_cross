@@ -76,7 +76,7 @@ class _HomePageState extends State<HomePage> {
         (gameState![0] == gameState![1]) &&
         (gameState![1] == gameState![2])) {
       setState(() {
-        message = gameState![0] + ' wins';
+        message = gameState![0] + ' win';
       });
     } else if ((gameState![3] != 'empty') &&
         (gameState![3] == gameState![4]) &&
