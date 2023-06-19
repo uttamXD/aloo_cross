@@ -82,37 +82,37 @@ class _HomePageState extends State<HomePage> {
         (gameState![3] == gameState![4]) &&
         (gameState![4] == gameState![5])) {
       setState(() {
-        message = gameState![3] + ' wins';
+        message = gameState![3] + ' win';
       });
     } else if ((gameState![6] != 'empty') &&
         (gameState![6] == gameState![7]) &&
         (gameState![7] == gameState![8])) {
       setState(() {
-        message = gameState![6] + ' wins';
+        message = gameState![6] + ' win';
       });
     } else if ((gameState![0] != 'empty') &&
         (gameState![0] == gameState![3]) &&
         (gameState![3] == gameState![6])) {
       setState(() {
-        message = gameState![0] + ' wins';
+        message = gameState![0] + ' win';
       });
     } else if ((gameState![1] != 'empty') &&
         (gameState![1] == gameState![4]) &&
         (gameState![4] == gameState![7])) {
       setState(() {
-        message = gameState![1] + ' wins';
+        message = gameState![1] + ' win';
       });
     } else if ((gameState![2] != 'empty') &&
         (gameState![2] == gameState![5]) &&
         (gameState![5] == gameState![8])) {
       setState(() {
-        message = gameState![2] + ' wins';
+        message = gameState![2] + ' win';
       });
     } else if ((gameState![0] != 'empty') &&
         (gameState![0] == gameState![4]) &&
         (gameState![4] == gameState![8])) {
       setState(() {
-        message = gameState![0] + ' wins';
+        message = gameState![0] + ' win';
       });
     } else if ((gameState![2] != 'empty') &&
         (gameState![2] == gameState![4]) &&
